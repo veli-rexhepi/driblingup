@@ -1,8 +1,8 @@
-@import url("css/fonts.css");
+@import url("https://github.com/veli-rexhepi/driblingup/css/fonts.css");
 
 body {
     margin: 0px;
-    background-image: url("images/background.webp");
+    background-image: url("https://github.com/veli-rexhepi/driblingup/images/background.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
