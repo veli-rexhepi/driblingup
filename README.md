@@ -1,1 +1,1 @@
-# driblingup
+# Dribling Up is a website developed by Melik Rexhepi. This project summarizes various North Macedonia Basketball Teams information in the online platform. This project was initiated related with the project preparation and presentation requested by the Maarif high school. Additionally, it demostrates the skills for web development of Melik Rexhepi.
