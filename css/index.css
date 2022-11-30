@@ -1,0 +1,437 @@
+body {
+    margin: 0px;
+    background-image: url("/images/background.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+/* header content */
+header section {
+    display: flex;
+    background-color: rgba(181, 66, 19, 1);
+}
+
+header section div {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+header section div img {
+    width: 90%;
+    margin: 5%;
+}
+
+header section h1 {
+    width: 80%;
+    font-family: 'Jackport';
+    font-size: 56px;
+    letter-spacing: 5px;
+    color: rgb(250, 235, 215, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* navigation bar */
+#navbar {
+    overflow: hidden;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.nav {
+    padding: 0;            
+}
+
+.nav div {
+    border: none !important;
+    background-color: rgba(228, 112, 65, 1) !important;
+}
+
+.nav div a {   
+    width: 20% !important;
+    font-family: 'Jackport';  
+    color: rgb(250, 235, 215, 0.8);
+    letter-spacing: 3px;
+    font-size: 22px;   
+}
+
+.nav div a:hover {    
+    font-family: 'Jackport';              
+    letter-spacing: 3px;    
+    color: #B83944 !important;
+    background-color: #FBC536 !important;
+}
+
+/* section 1 */
+.sec_1 {
+    padding: 16px;
+    background-color: #f9d5c7;
+    width: 100%;
+    height: 100vh;
+    display: flex;   
+    align-items: center;         
+}
+
+.sec_1 .left_side {
+    width: 60%;
+    font-size: 18px;
+}
+
+.sec_1 .left_side div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.sec_1 .left_side div img {
+    height: 45px;
+    margin: 0 8px 0 16px;
+}
+
+.sec_1 .left_side div h2 {
+    font-family: 'Jackport';   
+    letter-spacing: 3px;    
+    font-size: 26px;          
+    color: #5a2009;
+}
+
+.sec_1 .left_side p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;              
+    color: #5a2009;
+    text-indent: 16px;
+    text-align: justify;
+}
+
+.sec_1 .right_side {
+    width: 40%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec_1 .right_side img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sec_1 .right_side a {
+    text-align: right;
+    color: #e7571e;
+    text-decoration: none;
+    margin: 16px;
+}
+
+/* section 2 */
+.sec_2 {
+    padding: 16px;
+    background-color: #fce6de;
+    width: 100%;
+    height: 100vh;
+    display: flex;   
+    align-items: center;          
+}
+
+.sec_2 .left_side {
+    width: 60%;
+    font-size: 18px;
+}
+
+.sec_2 .left_side div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.sec_2 .left_side div img {
+    height: 45px;
+    margin: 0 8px 0 16px;
+}
+
+.sec_2 .left_side div h2 {
+    font-family: 'Jackport';   
+    letter-spacing: 3px;     
+    font-size: 26px;   
+    color: #5a2009;
+}
+
+.sec_2 .left_side p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;              
+    color: #5a2009;
+    text-indent: 16px;
+    text-align: justify;
+}
+
+.sec_2 .right_side {
+    width: 40%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec_2 .right_side img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sec_2 .right_side a {
+    text-align: right;
+    color: #e7571e;
+    text-decoration: none;
+    margin: 16px;
+}
+
+/* section 3 */
+.sec_3 {
+    padding: 16px;
+    background-color: #f9d5c7;
+    width: 100%;
+}
+
+table {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 24px;
+}
+
+th:first-child {
+    width: 2%;
+}
+
+th:nth-child(2) {
+    width: 10%;
+}
+
+th:nth-child(3) {
+    width: 40%;
+}
+
+th:nth-child(4) {
+    width: 30%;
+}
+
+th:nth-child(5) {
+    width: 3%;
+}
+
+th:nth-child(6) {
+    width: 5%;
+}
+
+table caption {
+    font-family: 'Jackport';
+    letter-spacing: 3px;
+    text-align: left;
+    color: #161616;    
+    font-size: 26px;
+    /* font-weight: bold; */
+    padding: 8px 0;
+}
+
+table, 
+th, 
+td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+th,
+tr {
+    height: 48px;
+}
+
+th {
+    color: antiquewhite;
+    background-color: #161616;
+}
+
+tr:nth-child(even) {
+    background-color: #E7E9EB;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+td:first-child {
+    text-align: center;
+}
+
+td {
+    padding: 8px;
+}
+
+tr:hover {
+    color: antiquewhite;
+    background-color: #B54213;
+}
+
+/* section moto - Dribling Up */
+.sec_moto p {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(22, 22, 22, 0.5);
+    font-family: 'Jackport';
+    font-size: 44px;
+    letter-spacing: 1px;
+    color: antiquewhite;
+    margin: 10vh;
+    text-align: justify;
+    padding: 16px;
+}
+
+/* section 4 */
+.sec_4 {
+    padding: 16px;
+    background-color: #fce6de;
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.sec_4 .section_title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.sec_4 .section_title img {
+    height: 45px;
+    margin: 0 8px 0 16px;
+}
+
+.sec_4 .section_title h2 {
+    font-family: 'Jackport';   
+    letter-spacing: 3px;     
+    font-size: 26px;      
+    color: #5a2009;
+}
+
+.sec_4 div {
+    display: flex;   
+    align-items: center;   
+}
+
+.sec_4 .left_side {
+    width: 80%;
+    font-size: 18px;
+}
+
+.sec_4 .left_side div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.sec_4 .left_side div img {
+    width: 330px;
+    height: 45px;
+    margin: 0 8px 0 16px;
+}
+
+.sec_4 .left_side div h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;              
+    color: #5a2009;
+}
+
+.sec_4 .left_side p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;              
+    color: #5a2009;
+    text-align: justify;
+}
+
+.padding-left-32 {
+    padding-left: 32px;
+}
+
+.padding-right-32 {
+    padding-right: 32px;
+}
+
+.sec_4 .right_side {
+    width: 20%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(22, 22, 22, 0.15);
+}
+
+.sec_4 .right_side img {
+    width: 100%;
+}
+
+.sec_4 .right_side a {
+    text-align: right;
+    color: #e7571e;
+    text-decoration: none;
+    margin: 16px;
+}
+
+/* footer content */
+footer {
+    font-family: 'Jackport';  
+    color: rgb(250, 235, 215, 0.8);
+    background-color: rgba(22, 22, 22, 1);
+}
+
+footer .top {
+    height: 200px;
+}
+
+footer .top .left_side {
+    display: flex;
+    padding: 32px;
+    width: 50%;
+}
+
+footer .top .left_side a {
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;    
+}
+
+footer li {
+    padding: 2px 0;
+}
+
+footer li:hover {
+    color: #B83944;
+}
+
+footer .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer hr {
+    border: none;
+    height: 2px;
+    margin: 0;
+    background: linear-gradient(to right, rgba(22, 22, 22, 1), rgba(181, 66, 19, 0.5), rgba(22, 22, 22, 1));
+}
+
+footer .bottom p {
+    color: rgb(250, 235, 215, 0.5);
+    margin: 16px;
+    letter-spacing: 3px;    
+    font-size: 14px;
+}
+
+footer .bottom a {
+    text-decoration: none;
+}
