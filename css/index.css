@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-image: url("https://github.com/veli-rexhepi/driblingup/images/background.webp");
+    background-image: url("/driblingup/images/background.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
